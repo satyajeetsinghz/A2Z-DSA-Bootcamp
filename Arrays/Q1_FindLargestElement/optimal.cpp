@@ -23,7 +23,7 @@ using namespace std;
 int main()
 {
     // Input array and its size
-    int arr[6] = {1, 2, 22, 50, 4, 0};
+    int arr[6] = {1, 2, 22, 40, 4, 0};
     int n = sizeof(arr) / sizeof(arr[0]);
 
     // Initialize running maximum with the first element
