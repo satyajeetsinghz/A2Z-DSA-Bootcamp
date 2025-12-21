@@ -75,7 +75,7 @@ int main()
     }
 
     // Output final matrix
-    cout << "Final Matrix: " << endl;
+    cout << "Final Matrix (Brute): " << endl;
     for (int i = 0; i < rows; i++)
     {
         for (int j = 0; j < cols; j++)
