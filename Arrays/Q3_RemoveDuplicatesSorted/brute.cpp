@@ -26,7 +26,7 @@ using namespace std;
 int main()
 {
     // Input sorted array; duplicates exist
-    int arr[] = {1, 1, 2, 3, 3};
+    int arr[] = {1, 1, 2, 3, 3, 4};
     int n = sizeof(arr) / sizeof(arr[0]);
 
     // Collect unique elements in sorted order using set
