@@ -22,6 +22,7 @@
 
 #include <iostream>
 #include <algorithm>
+#include "Timer.h"
 using namespace std;
 
 // Helper function to reverse an array in-place
@@ -40,6 +41,8 @@ void reverseArray(int arr[], int n)
 
 int main()
 {
+    Timer t;
+    t.start();
     int n = 3; // size of the NxN square matrix
     int matrix[n][n] = {{1, 2, 3},
                         {4, 5, 6},
@@ -74,5 +77,6 @@ int main()
         cout << endl;
     }
 
+    t.stop("Runtime");
     return 0;
 }

@@ -21,9 +21,12 @@
  */
 
 #include <iostream>
+#include "Timer.h";
 using namespace std;
 int main()
 {
+    Timer t;
+    t.start();
     // Sample 3x3 input matrix
     int matrix[3][3] = {
         {1, 2, 3},
@@ -56,5 +59,6 @@ int main()
         cout << endl;
     }
 
+    t.stop("Runtime");
     return 0;
 }
