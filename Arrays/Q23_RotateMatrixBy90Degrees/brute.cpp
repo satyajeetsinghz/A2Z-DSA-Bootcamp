@@ -31,7 +31,7 @@ int main()
     int matrix[3][3] = {
         {1, 2, 3},
         {4, 5, 6},
-        {7, 8, 9}};
+        {7, 8, 10}};
 
     int n = 3;         // size of the square matrix (NxN)
     int rotated[n][n]; // new matrix to store the 90° clockwise rotated result
