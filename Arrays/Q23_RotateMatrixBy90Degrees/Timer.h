@@ -19,7 +19,7 @@ public:
     }
 
     // Stop timer and print duration
-    void stop(const string &message = "Execution Time")
+    void stop(const string &message = "Execution Time:")
     {
         auto end_time = high_resolution_clock::now();
         auto duration = duration_cast<microseconds>(end_time - start_time);
