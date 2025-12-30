@@ -115,7 +115,7 @@ int lastOccurrence(int arr[], int n, int target)
 int main()
 {
     // Sample sorted array with duplicates
-    int arr[] = {1, 2, 3, 5, 5 , 5, 6, 7};
+    int arr[] = {1, 2, 3, 5, 5 , 5, 6, 8};
     int n = sizeof(arr) / sizeof(arr[0]);
 
     // Target value to locate range for
