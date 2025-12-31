@@ -87,7 +87,7 @@ int searchInsert(int arr[], int n, int target)
 int main()
 {
     // Sample sorted array with potential duplicates
-    int arr[] = {1, 2, 4, 4, 5};
+    int arr[] = {1, 2, 4, 4, 5, 6};
     int n = sizeof(arr) / sizeof(arr[0]);
 
     // Target element to search for or insert
