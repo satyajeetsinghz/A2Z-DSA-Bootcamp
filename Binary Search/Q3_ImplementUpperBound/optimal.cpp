@@ -90,7 +90,7 @@ int upperBound(int arr[], int n, int target)
 int main()
 {
     // Sample sorted array with duplicate elements
-    int arr[] = {1, 2, 5, 7, 7, 8, 9};
+    int arr[] = {1, 2, 5, 7, 7, 8, 8};
     int n = sizeof(arr) / sizeof(arr[0]);
 
     // Target element to find upper bound for
