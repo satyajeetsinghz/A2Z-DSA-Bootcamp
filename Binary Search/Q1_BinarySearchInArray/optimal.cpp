@@ -72,7 +72,7 @@ int binarySearch(int arr[], int n, int target)
 int main()
 {
     // Sample sorted array (ascending order)
-    int arr[] = {1, 2, 5, 7, 9};
+    int arr[] = {1, 2, 5, 7, 9, 11};
     int n = sizeof(arr) / sizeof(arr[0]);
 
     // Target element to search for
