@@ -24,7 +24,7 @@ int main()
 {
     // Sample input: Stock prices for each day
     // Example: Day 0 = $7, Day 1 = $1, Day 2 = $5, Day 3 = $3, Day 4 = $6, Day 5 = $4
-    int arr[] = {7, 1, 5, 3, 6, 4};
+    int arr[] = {7, 1, 5, 3, 6, 4, 2};
     
     // Calculate the total number of days (array size)
     int n = sizeof(arr) / sizeof(arr[0]);
