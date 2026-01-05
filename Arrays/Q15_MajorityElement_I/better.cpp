@@ -30,7 +30,7 @@ int main()
 {
     // Sample input array where we need to find majority element
     // In this array: 2 appears 5 times out of 8 (more than 8/2 = 4)
-    int arr[] = {1, 2, 2, 1, 4, 2, 2, 2};
+    int arr[] = {1, 2, 2, 1, 4, 2, 2, 2, 2};
 
     // Calculate total number of elements in the array
     int n = sizeof(arr) / sizeof(arr[0]);
