@@ -121,7 +121,7 @@ int searchRotatedElement(int arr[], int n, int target)
 int main()
 {
     // Test array: Original sorted array [0,1,2,3,4,5,6,7] rotated at index 4
-    int arr[] = {4, 5, 6, 7, 0, 1, 2, 3};
+    int arr[] = {5, 6, 7, 8, 0, 1, 2, 3, 4};
     
     // Calculate number of elements in array (total bytes / bytes per element)
     int n = sizeof(arr) / sizeof(arr[0]);
