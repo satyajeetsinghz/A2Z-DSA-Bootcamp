@@ -36,8 +36,8 @@ using namespace std;
 bool isMonotonic(int arr[], int n)
 {
     // Flags to track if array is monotonic increasing and decreasing
-    bool inc = true;  // assume array is monotonic increasing
-    bool dec = true;  // assume array is monotonic decreasing
+    bool inc = true; // assume array is monotonic increasing
+    bool dec = true; // assume array is monotonic decreasing
 
     // Single pass to check for violations of either property
     for (int i = 1; i < n; i++)
@@ -62,7 +62,7 @@ int main()
     int n1 = sizeof(arr1) / sizeof(arr1[0]);
 
     // Test case 2: neither increasing nor decreasing => should return false
-    int arr2[] = {1, 2, 5, 3, 4};
+    int arr2[] = {1, 2, 5, 6, 3, 4};
     int n2 = sizeof(arr2) / sizeof(arr2[0]);
 
     // Check arr1 (monotonic increasing)
