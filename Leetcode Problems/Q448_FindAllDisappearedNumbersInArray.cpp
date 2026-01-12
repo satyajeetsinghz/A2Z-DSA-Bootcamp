@@ -53,7 +53,7 @@ void findDisappeared(int arr[], int n)
 int main()
 {
     // Example usage (ensure values are within [1, n] for correctness under constraints)
-    int arr[] = {8, 5, 6, 1, 3};
+    int arr[] = {9, 5, 6, 1, 3};
     int n = sizeof(arr) / sizeof(arr[0]);
 
     findDisappeared(arr, n);
