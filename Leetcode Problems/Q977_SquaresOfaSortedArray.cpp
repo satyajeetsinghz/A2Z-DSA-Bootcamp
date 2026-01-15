@@ -63,7 +63,7 @@ void sortedSquares(int arr[], int n, int results[])
 int main()
 {
     // Test case: sorted array with negative and positive numbers
-    int arr[] = {-4, -2, 0, 1, 5, 8};
+    int arr[] = {-4, -2, 0, 1, 5, 9};
     int n = sizeof(arr) / sizeof(arr[0]);  // Calculate number of elements
 
     int results[n];  // Array to store sorted squares
