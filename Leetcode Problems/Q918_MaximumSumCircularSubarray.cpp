@@ -91,7 +91,7 @@ int maxSubarraySumCircular(int arr[], int n)
 int main()
 {
     // Test case: array where circular sum is greater than linear sum
-    int arr[] = {4, -3, 4};
+    int arr[] = {2, -3, 8};
     int n = sizeof(arr) / sizeof(arr[0]);  // Calculate number of elements
 
     // Display the result
