@@ -73,14 +73,14 @@ void relativeSortArray(int arr1[], int arr2[], int n1, int n2)
 int main()
 {
     // Test case: arr1 to be sorted based on relative order in arr2
-    int arr1[] = {2, 3, 1, 3, 2, 4, 6, 7, 9, 2, 19};
+    int arr1[] = {2, 3, 1, 3, 2, 4, 6, 7, 9, 2, 20};
     int arr2[] = {2, 1, 4, 3, 9, 6};
 
     int n1 = sizeof(arr1) / sizeof(arr1[0]);  // Calculate size of arr1
     int n2 = sizeof(arr2) / sizeof(arr2[0]);  // Calculate size of arr2
 
     // Display input arrays
-    cout << "Input arr1: [2, 3, 1, 3, 2, 4, 6, 7, 9, 2, 19]" << endl;
+    cout << "Input arr1: [2, 3, 1, 3, 2, 4, 6, 7, 9, 2, 20]" << endl;
     cout << "Input arr2 (order): [2, 1, 4, 3, 9, 6]" << endl;
     cout << "Output: ";
     
