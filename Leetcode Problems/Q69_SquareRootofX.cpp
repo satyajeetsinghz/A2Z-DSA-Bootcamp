@@ -66,7 +66,7 @@ int findSqrt(int x)
 int main()
 {
     // Example: Find integer square root of 9
-    int x = 64;
+    int x = 81;
     cout << "Sqrt of " << x << " is " << findSqrt(x);
 
     return 0;
