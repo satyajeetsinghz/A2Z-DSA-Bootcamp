@@ -42,13 +42,13 @@ int main()
 {
     // Sample input array to search for two sum
     // In this example: 3 + 5 = 8 (target)
-    int arr[] = {1, 2, 3, 5};
+    int arr[] = {1, 2, 3, 5, 9};
     
     // Calculate the total number of elements in the array
     int n = sizeof(arr) / sizeof(arr[0]);
     
     // Target sum we're trying to achieve with two numbers from the array
-    int target = 8;
+    int target = 14;
 
     // Initialize two pointers:
     // 'start' pointer begins at the leftmost position (smallest element after sorting)
