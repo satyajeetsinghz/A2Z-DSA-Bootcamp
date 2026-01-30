@@ -38,7 +38,7 @@ int main()
     // Sample binary array containing only 0s and 1s
     // Sequences of 1s: [1,1], [1,1,1,1], [1,1]
     // Expected result: 4 (the sequence [1,1,1,1] at indices 3-6)
-    int arr[] = {1, 1, 0, 1, 1, 1, 1, 0, 1, 1};
+    int arr[] = {1, 1, 0, 1, 1, 1, 1, 0, 1};
     
     // Calculate the total number of elements in the array
     int n = sizeof(arr) / sizeof(arr[0]);
