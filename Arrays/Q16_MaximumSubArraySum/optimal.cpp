@@ -26,7 +26,7 @@ int main()
 {
     // Sample input array with positive and negative integers
     // Expected result: subarray [1, 5, -3, 7] gives maximum sum = 10
-    int arr[] = {-2, -3, 1, 5, -3, 7, -1};
+    int arr[] = {-2, -3, 1, 5, -3, 7, -1, 2};
     
     // Calculate the total number of elements in the array
     int n = sizeof(arr) / sizeof(arr[0]);
