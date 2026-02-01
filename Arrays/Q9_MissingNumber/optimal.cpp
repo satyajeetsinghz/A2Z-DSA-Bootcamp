@@ -29,7 +29,7 @@ using namespace std;
 int main()
 {
     // Input array containing numbers from 1..n with exactly one missing
-    int arr[] = {1, 2, 4, 5};
+    int arr[] = {1, 2, 4, 6};
 
     // The expected upper bound of the range [1..n]
     int n = 5;
