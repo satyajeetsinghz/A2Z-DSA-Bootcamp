@@ -24,7 +24,7 @@ using namespace std;
 int main()
 {
     // Input: sorted array
-    int arr[] = {1, 2, 2, 2, 3, 3};
+    int arr[] = {1, 2, 2, 2, 3, 3, 4, 4};
     int n = sizeof(arr) / sizeof(arr[0]);
 
     // Edge case note: for n == 0, uniqueCount is 0 (not illustrated here)
