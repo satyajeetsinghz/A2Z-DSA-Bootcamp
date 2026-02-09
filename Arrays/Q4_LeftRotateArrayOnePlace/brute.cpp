@@ -24,7 +24,7 @@ using namespace std;
 int main()
 {
     // Input array and its size
-    int arr[] = {1, 2, 3, 4, 5};
+    int arr[] = {1, 2, 3, 4, 6};
     int n = sizeof(arr) / sizeof(arr[0]);
 
     // STEP 1: Store the first element before overwriting it
